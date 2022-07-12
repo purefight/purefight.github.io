@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+    <link href="covid19tablestyle.css" rel="stylesheet" type="text/css">
+    <style>
+        table,th,td{
+            border: 1px solid;
+            border-collapse: collapse;
+        }
+        table{
+            width: 110%;
+        }
+        th{
+            height: 50px;
+            background-color: rgb(243, 215, 60);
+            padding: 20px;
+        }
+        thead {
+            text-align: right;
+        }
+        td{
+            text-align: right;
+            height: 50px;
+            padding: 20px;
+        }
+        td.yellowbackground{
+            background-color: rgb(255, 246, 66);
+        }
+        td.redbackground{
+            background-color: red;
+            color: white;
+            border: 1px solid black;
+            
+        }
+        td.greenbackground{
+            background-color: rgb(52, 207, 52);
+        }
+
+        tr:nth-child(even) {background-color: #4269ec;}
+        
+    </style>
+</head>
+<body>
+    <table>
+        <caption style="text-align:center ;"> <h3>Reportes Cases and Death by Country</h3> </caption>
+        <thead>
+            <th>Country</th>
+            <th>Total Cases</th>
+            <th>New Cases</th>
+            <th>Total Deaths</th>
+            <th>New Deaths</th>
+            <th>Total Recovered</th>
+            <th>New Recovered</th>
+            <th>Active Cases</th>
+
+        </thead>
+        <tbody bgcoler="red">
+            <tr>
+                <td style="text-align: left;">USA</td>
+                <td>35,353,923</td>
+                <td class="yellowbackground">+61,581</td>
+                <td>627,351</td>
+                <td class="redbackground">+339</td>
+                <td>29,571,434</td>
+                <td class="greenbackground">+22966</td>
+                <td>5,155,138</td>
+            </tr>
+            <tr>
+                <td style="text-align: left;">India</td>
+                <td>31,483,411</td>
+                <td class="yellowbackground">+42,928</td>
+                <td>422,054</td>
+                <td class="redbackground">+640</td>
+                <td>30,655,390</td>
+                <td class="greenbackground">+41,452</td>
+                <td>405,967</td>
+            </tr>
+            <tr>
+                <td style="text-align: left;">Brazil</td>
+                <td>19,749,073</td>
+                <td class="yellowbackground">+42,982</td>
+                <td>551,906</td>
+                <td class="redbackground" >+1,320</td>
+                <td>18,466,822</td>
+                <td class="greenbackground">+68,255</td>
+                <td>730,345</td>
+            </tr>
+            <tr>
+                <td style="text-align: left;">Thailand</td>
+                <td>526,822</td>
+                <td class="yellowbackground">+14,150</td>
+                <td>4,264</td>
+                <td class="redbackground">+118</td>
+                <td>350,643</td>
+                <td class="greenbackground">+9,168</td>
+                <td>171,921</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
