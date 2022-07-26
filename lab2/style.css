@@ -25,3 +25,10 @@ img{
     display: block;
     margin: 0 auto;
 }
+.reddot{
+    border-style: dotted;
+    border-color:red;
+}
+.bluetext{
+    color: blue;
+}

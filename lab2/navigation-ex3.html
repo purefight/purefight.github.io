@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .topnav {
+        overflow: hidden;
+        background-color: #333;
+        }
+
+        .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        }
+        .topnav a:hover {
+        background-color: rgb(248, 219, 0);
+        color: black;
+        }
+
+        .topnav a.active {
+        background-color: #9704aa;
+        color: rgb(255, 255, 255);
+        }
+        .boxblue{
+            border-color: blue;
+            border-style:solid;
+            width: 30%;
+            background-color: rgb(142, 136, 248);
+        }
+
+        .boxgreen{
+            border-color: rgb(28, 114, 1);
+            border-style:solid;
+            width: 30%;
+            background-color: rgb(123, 210, 120);
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="topnav">
+        <a class="active">Unordered List</a>
+        <a >Ordered List</a>
+      </div>
+      
+      <div style="padding-left:16px">
+        <h2 class="boxblue">This is an unordered list</h2>
+            <ul style="list-style-type:circle ;">
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Coca Cola</li>
+            </ul>
+        <h2 class="boxgreen">This is an ordered list</h2>
+            <ol type="i">
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Coca Cola</li>
+            </ol>
+      </div>
+</body>
+</html>
