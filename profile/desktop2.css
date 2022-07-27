@@ -38,3 +38,27 @@ div{
     font-family: inter;
 }
 
+table,th,td{
+    border: 1px solid;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+table{
+    width: 50%;
+}
+th{
+    height: 50px;
+    background-color: rgb(243, 215, 60);
+    padding: 20px;
+}
+thead {
+    text-align: center;
+}
+td{
+    text-align: center;
+    height: 50px;
+    padding: 20px;
+}
+
+
