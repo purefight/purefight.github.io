@@ -26,6 +26,23 @@ div{
     color: black;
 }
 
+table{
+    width: 50%;
+}
+th{
+    height: 50px;
+    background-color: rgb(243, 215, 60);
+    padding: 20px;
+}
+thead {
+    text-align: center;
+}
+td{
+    text-align: center;
+    height: 50px;
+    padding: 20px;
+}
+
 
 .frommer {
     text-align: center;
@@ -44,21 +61,6 @@ table,th,td{
     margin-left: auto;
     margin-right: auto;
 }
-table{
-    width: 50%;
-}
-th{
-    height: 50px;
-    background-color: rgb(243, 215, 60);
-    padding: 20px;
-}
-thead {
-    text-align: center;
-}
-td{
-    text-align: center;
-    height: 50px;
-    padding: 20px;
-}
+
 
 
