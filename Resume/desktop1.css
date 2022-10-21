@@ -660,9 +660,9 @@
   position: absolute;
 }
 .desktop1-ellipse7 {
-  top: 910px;
   left: 393px;
   width: 16px;
+  bottom: 75px;
   height: 16px;
   position: absolute;
 }
@@ -700,6 +700,8 @@
   width: 16px;
   height: 16px;
   position: absolute;
+  background-size: cover;
+  background-image: url("public/playground_assets/15ea4656-0aac-40d6-8cc2-65166a4f810e-j32d.svg");
 }
 .desktop1-ellipse11 {
   top: 712px;
