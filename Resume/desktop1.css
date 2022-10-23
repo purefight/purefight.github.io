@@ -21,8 +21,16 @@
 .desktop1-container {
   min-height: 100vh;
 }
+
+.desktop1-container {
+  min-height: 100vh;
+}
+.desktop1-container1 {
+  width: 1412px;
+  margin-right: 13px;
+}
 .desktop1-desktop1 {
-  width: 100%;
+  width: 1437px;
   height: 1002px;
   display: flex;
   overflow: hidden;
@@ -30,7 +38,7 @@
   align-items: flex-start;
   flex-shrink: 0;
   border-color: transparent;
-  margin-right: 1px;
+  margin-right: var(--dl-space-space-oneandhalfunits);
   background-color: rgba(255, 255, 255, 1);
 }
 .desktop1-rectangle3 {
@@ -817,3 +825,11 @@
   height: 16px;
   position: absolute;
 }
+@media(max-width: 483px) {
+  .desktop1-desktop1 {
+    width: 100%;
+    height: 1002;
+  }
+}
+
+
